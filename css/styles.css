@@ -893,10 +893,19 @@ line-height: 1.5;
 }
 
 /*Адаптация под смартфон*/
-@media only screen and (min-width : 375px) and (max-width : 767px) {
+@media only screen and (min-width : 350px) and (max-width : 767px) {
+
+  body{
+    font: normal 14px sans-serif;
+    color: #555;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+  }
 
   .slider img{
-    max-width: 40vh;
+    max-width: 30vh;
     margin: 0 auto;
     margin-top: 5vh;
     margin: 5px;
